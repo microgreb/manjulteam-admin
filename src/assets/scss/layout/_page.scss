@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+.page-heading {
+  font-size: $f34;
+  font-weight:900;
+}
+
+.b-left {
+  border-left: 1px solid $gray;
+}
+
+@import "components/tiled-grid";

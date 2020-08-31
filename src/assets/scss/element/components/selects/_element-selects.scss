@@ -1,0 +1,70 @@
+.filters-select {
+  width: 100%;
+  border-right: 1px solid $gray;
+  .el-input {
+    vertical-align: top;
+    font-size: $f16 !important;
+  }
+
+  &.el-date-editor {
+    width: 100%;
+    font-size: $f16;
+    height: $f56;
+    line-height: $f56;
+    overflow: hidden;
+    input {
+      border: none;
+      font-size: $f16;
+      height: $f56;
+      line-height: $f56;
+    }
+  }
+  .el-input {
+    vertical-align: top;
+    font-size: $f16;
+    .el-input__inner {
+      font-family: "SF Display", sans-serif !important;
+      line-height: $f56 !important;
+      height: $f56 !important;
+      border: none !important;
+      padding-right: $f42;
+      padding-left: $f22;
+    }
+
+    .el-input__suffix {
+      line-height: $f56;
+      position: absolute;
+      right: $f22;
+      top: 0;
+      i {
+        &:after {
+          display: none;
+        }
+        &:before {
+          display: none;
+        }
+      }
+      .el-input__suffix-inner {
+        height: $f8;
+      }
+    }
+
+    .el-select__caret {
+      display: inline-block;
+      width: $f8;
+      height: $f8;
+      font-size: 0;
+      background-color: $darkgray;
+      border-radius: 50%;
+
+      padding: 0;
+      margin: 0;
+
+      line-height: $f8;
+      transform: none !important;
+    }
+    .is-reverse {
+      background-color: $violet;
+    }
+  }
+}

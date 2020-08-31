@@ -1,0 +1,27 @@
+.filters {
+  position: fixed;
+  left: 0;
+  top: $f56;
+  height: $f56;
+  line-height: $f56;
+  width: 100%;
+  background-color: $white;
+  overflow:hidden;
+  .tab {
+    display: inline-block;
+    padding: 0 $f22;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box;
+    color:$gray-disabled;
+    font-size:$f16;
+    &.activeTab {
+      box-shadow: inset 0 -4px 0 $black;
+      color:$black;
+    }
+    &:first-of-type {
+      margin-left: $f34;
+    }
+  }
+}

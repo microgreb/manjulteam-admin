@@ -1,0 +1,12 @@
+.el-button {
+  font-size: $f16;
+  padding: $f14 $f22;
+  border-radius: $f6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.el-button.is-round {
+  padding: $f14 $f22 !important;
+  border-radius: $f22 !important;
+}

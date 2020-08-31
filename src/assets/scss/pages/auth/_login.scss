@@ -1,0 +1,61 @@
+
+.c-orange {
+  color: $orange;
+}
+.c-red {
+  color: $red;
+}
+
+.w56 {
+  width: $f56;
+}
+.w288 {
+  width: $f288;
+}
+.w620 {
+  width: $f620;
+}
+
+.h14 {
+  height: $f14;
+  [class^=el-] {
+    height: $f14;
+  }
+}
+.h42 {
+  height: $f42;
+  [class^=el-] {
+    height: $f42;
+  }
+}
+.h56 {
+  height: $f56;
+  [class^=el-] {
+    height: $f56;
+  }
+}
+.h144 {
+  height: $f144;
+  [class^=el-] {
+    height: $f144;
+  }
+}
+
+.t22 {
+  font-size: $f22;
+}
+.t42 {
+  font-size: $f42;
+}
+
+.btn-black {
+  color: $white;
+  background-color: $black;
+  border: 1px solid $darkgray;
+}
+
+.btn-black:hover {
+  color: $black;
+  background-color: $white;
+  border: 1px solid $default-text;
+}

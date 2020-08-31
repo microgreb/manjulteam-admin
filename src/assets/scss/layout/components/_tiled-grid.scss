@@ -1,0 +1,79 @@
+
+.tiled-grid {
+  margin-top: $f56;
+  font-size: 0;
+  .tile-wrapper {
+    margin-left: -$f11;
+    margin-right: -$f11;
+    .tile {
+      border-radius: 3px;
+      vertical-align: top;
+      display: inline-block;
+      background-color: $white;
+      width: calc(25% - 1.147vw);
+      height: $f178;
+      margin: 0 $f11;
+      margin-bottom: $f22;
+      border: 1px solid $gray;
+      padding: $f22;
+      position: relative;
+      .image-container {
+        width: $f110;
+        display: inline-block;
+        overflow: hidden;
+        max-height: 7vw;
+        position: relative;
+        img {
+          width: $f178;
+        }
+      }
+      .description {
+        width: calc(100% - #{$f110} - #{$f22});
+        display: inline-block;
+        height: $f178;
+        position: absolute;
+        right: 0;
+        top: 0;
+        > div {
+          vertical-align: top;
+          position: absolute;
+          display: inline-block;
+        }
+      }
+      > div {
+        vertical-align: top;
+        position: absolute;
+        display: inline-block;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}
+
+.el-popover {
+  background-color: $black;
+  padding: $f26;
+  padding-bottom: 0;
+
+  .el-popover__title {
+    color: $orange;
+    text-transform: uppercase;
+  }
+  p {
+    cursor: pointer;
+    color: $white;
+    margin-bottom: $f26;
+    &:hover {
+      color: orange;
+    }
+  }
+  .popper__arrow {
+    border-left-color: $black !important;
+    &:after {
+      border-left-color: $black !important;
+    }
+  }
+}

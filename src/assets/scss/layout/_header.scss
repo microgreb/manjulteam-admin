@@ -1,0 +1,28 @@
+.header {
+  height: $f56;
+  line-height: $f56;
+  background-color: $black;
+  vertical-align: top;
+  color: white;
+  position:fixed;
+  z-index:50;
+  left:0;
+  top:0;
+  width:100vw;
+  font-size:$f22;
+  .nav {
+    li {
+      cursor:pointer;
+      display: inline-block;
+      margin-left: $f11;
+      margin-right: $f11;
+      font-size:$f16;
+      font-weight:bold;
+      text-transform: uppercase;
+      color:$gray-disabled;
+      &.active {
+        color: $yellow
+      }
+    }
+  }
+}
